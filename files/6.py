@@ -1,0 +1,10 @@
+s = input().strip()
+while s.find('  ') >= 0:
+    s = s.replace('  ', ' ')
+s = s.replace(' .', '.')
+s = s.replace(' ,', ',')
+s = s.replace('.', '. ')
+s = s.replace(',', ', ')
+s = s.replace('  ', ' ')
+s = s.strip()
+print(s)
