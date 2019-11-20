@@ -1,2 +1,1 @@
-s = input()
-print([isinstance(i, str) for i in s.split()].count(True))
+[[j + i for j in range(m)] for i in range(n)]
